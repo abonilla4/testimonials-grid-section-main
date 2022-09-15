@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 html {font-size: 62.2%;}
@@ -18,7 +20,10 @@ html {font-size: 62.2%;}
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 0.5rem; 
+  gap: 1.8rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .card-1 {
@@ -49,13 +54,34 @@ html {font-size: 62.2%;}
   grid-row: 2 / 3;
 }
 
+.card {
+  padding: 20px;
+  border-radius: 3%;
+}
+
+
 .card--info {
   display: flex;
 }
 
 .card--info img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border: 1px solid hsl(263, 55%, 75%);
   border-radius: 50%;
+  margin-right: 8px;
+}
+
+.card-parag1, .card-parag2 {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.card-parag1 {
+  font-weight: 600;
+}
+
+.card-parag2 {
+  
+  font-weight: 500;
 }
