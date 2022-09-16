@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
 * {
   margin: 0;
@@ -72,16 +72,20 @@ html {font-size: 62.2%;}
   margin-right: 8px;
 }
 
+.card--detail :nth-child(2){
+  opacity: 50%;
+}
+
 .card-parag1, .card-parag2 {
   font-size: 1.3rem;
   margin-top: 10px;
 }
 
 .card-parag1 {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .card-parag2 {
-  
-  font-weight: 500;
+  font-weight: 600;
+  opacity: 70%;
 }
