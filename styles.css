@@ -29,8 +29,8 @@ body {
   grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
   width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
+  max-width: 70%;
+  /*margin: 0 auto;*/
 }
 
 .attribution {
@@ -76,7 +76,10 @@ body {
 
 .card {
   padding: 20px;
-  border-radius: 3%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.3);
 }
 
 
